@@ -1,0 +1,9 @@
+version="2.X"
+tags={
+	"Overhaul"
+	"Events"
+	"Spaceships"
+	"Technologies"
+}
+name="DimensionalEmpire"
+supported_version="2.7.2"
