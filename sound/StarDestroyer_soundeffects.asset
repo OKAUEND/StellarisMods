@@ -1,0 +1,122 @@
+
+########## WEAPONS SFX ############
+
+########## ON DISTANCE WEAPONS SFX
+
+
+############ CLOSE WEAPONS SFX
+
+
+soundeffect = {
+	name = TIE_Explosion
+	falloff = "falloff_weapons_close"
+	sounds = {
+		sound = TIE_explosion_01
+		sound = TIE_explosion_02
+
+	}
+	is3d = yes
+	max_audible = 4
+	max_audible_behaviour = fail
+	delay_random_offset = { 0.0 0.5 }
+	volume = 1.0
+}
+
+######### HIT ENTITIY & DEATH #####
+
+####### DISTANT
+
+###### CLOSE
+
+###########Moving Out###################
+
+soundeffect = {
+	name = moving_out_em_TIE
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_tie_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_TIE_Bomber
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_tie_bomber_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+soundeffect = {
+	name = moving_out_em_Interdictor
+	falloff = "falloff_400"
+	volume = 0.4
+	sounds = {
+		sound = moving_out_em_Inter_01
+	} 
+	is3d = yes
+	max_audible = 2	
+	max_audible_behaviour = fail
+	
+}
+
+##########Ambient#############
+
+soundeffect = {
+	name = Empire_Fighter_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_TIE_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+soundeffect = {
+	name = Empire_Cruiser_hum
+	loop = yes
+	falloff = falloff_fleet
+	random_sound_when_looping = no
+	sounds = {
+		sound = st_Empire_01_Cruiser_01
+	} 
+	volume = 0.4
+	is3d = yes
+	max_audible = 2
+	max_audible_behaviour = fail
+	volume_random_offset = { -0.05 0.05}
+	playbackrate_random_offset = { 0.0 -0.3 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

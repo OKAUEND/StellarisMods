@@ -1,0 +1,294 @@
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	
+	#prerequisites = { "tech_SD_Shield_system_1" }
+	component_set = "SD_Shield_system"
+	size_restriction = {SD_battlecruiser SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_1"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+utility_component_template = {
+	key = "LARGE_SD_SHILED_SYSTEM_0"
+	size = small
+	icon = "GFX_ship_part_empty_ftl_drive"
+	icon_frame = 1
+	power = 0
+	cost = 0
+	
+	#prerequisites = { "tech_SD_Shield_system_1" }
+	component_set = "SDN_Shield_system"
+	size_restriction = { SSD_battlecruiser SD_dreadnought2 SD_dreadnought }
+	upgrades_to = "LARGE_SD_SHILED_SYSTEM_1"
+
+	ai_weight = {
+		weight = 0
+	}
+}
+#単層式シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_1"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -40
+	cost = 40
+	
+	prerequisites = { "tech_SD_Shield_system_1" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_2"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 10
+		#シールド回復　実数
+		ship_shield_regen_add_static = 500
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#複層式シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_2"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -60
+	cost = 60
+	
+	prerequisites = { "tech_SD_Shield_system_2" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_3"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 15
+		#シールド回復　実数
+		ship_shield_regen_add_static = 750
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#複層式多配置型シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_3"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -80
+	cost = 80
+	
+	prerequisites = { "tech_SD_Shield_system_3" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_4"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 25
+		#シールド回復　実数
+		ship_shield_regen_add_static = 1200
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#複層可変式多配置型シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_4"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -100
+	cost = 100
+	
+	prerequisites = { "tech_SD_Shield_system_4" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_5"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 40
+		#シールド回復　実数
+		ship_shield_regen_add_static = 3000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#多層可変式多配置型シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_5"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -120
+	cost = 120
+	
+	prerequisites = { "tech_SD_Shield_system_5" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_SHILED_SYSTEM_6"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 45
+		#シールド回復　実数
+		ship_shield_regen_add_static = 4000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#多層分散式亜空間シールド発生装置
+utility_component_template = {
+	key = "SD_SHILED_SYSTEM_6"
+	size = small
+	icon = "GFX_ShieldSystem"
+	icon_frame = 1
+	power = -140
+	cost = 140
+	
+	prerequisites = { "tech_SD_Shield_system_6" }
+	component_set = "SD_Shield_system"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor SD_battlecruiser SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	#upgrades_to = "SD_SHILED_SYSTEM_4"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 60
+		#シールド回復　実数
+		ship_shield_regen_add_static = 5000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#------------------------------------------------------------------------------------------------
+#複層式多配置型シールド発生装置
+utility_component_template = {
+	key = "LARGE_SD_SHILED_SYSTEM_1"
+	size = small
+	icon = "GFX_Large_Shield_system"
+	icon_frame = 1
+	power = -80
+	cost = 80
+	
+	prerequisites = { "tech_SD_Shield_system_3" "tech_SSD_Shield_system" }
+	component_set = "SDN_Shield_system"
+	size_restriction = { SSD_battlecruiser SD_dreadnought2 SD_dreadnought }
+	upgrades_to = "LARGE_SD_SHILED_SYSTEM_2"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 25
+		#シールド回復　実数
+		ship_shield_regen_add_static = 1200
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#複層可変式多配置型シールド発生装置
+utility_component_template = {
+	key = "LARGE_SD_SHILED_SYSTEM_2"
+	size = small
+	icon = "GFX_Large_Shield_system"
+	icon_frame = 1
+	power = -160
+	cost = 160
+	
+	prerequisites = { "tech_SD_Shield_system_4" "tech_SSD_Shield_system"}
+	component_set = "SDN_Shield_system"
+	size_restriction = { SSD_battlecruiser SD_dreadnought2 SD_dreadnought }
+	upgrades_to = "LARGE_SD_SHILED_SYSTEM_3"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 40
+		#シールド回復　実数
+		ship_shield_regen_add_static = 3000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#多層可変式多配置型シールド発生装置
+utility_component_template = {
+	key = "LARGE_SD_SHILED_SYSTEM_3"
+	size = small
+	icon = "GFX_Large_Shield_system"
+	icon_frame = 1
+	power = -220
+	cost = 220
+	
+	prerequisites = { "tech_SD_Shield_system_5" "tech_SSD_Shield_system"}
+	component_set = "SDN_Shield_system"
+	size_restriction = { SSD_battlecruiser SD_dreadnought2 SD_dreadnought }
+	upgrades_to = "LARGE_SD_SHILED_SYSTEM_4"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 45
+		#シールド回復　実数
+		ship_shield_regen_add_static = 4000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}
+
+#多層分散式亜空間シールド発生装置
+utility_component_template = {
+	key = "LARGE_SD_SHILED_SYSTEM_4"
+	size = small
+	icon = "GFX_Large_Shield_system"
+	icon_frame = 1
+	power = -250
+	cost = 250
+	
+	prerequisites = { "tech_SD_Shield_system_6" "tech_SSD_Shield_system"}
+	component_set = "SDN_Shield_system"
+	size_restriction = { SSD_battlecruiser SD_dreadnought2 SD_dreadnought }
+	##upgrades_to = "SD_SHILED_SYSTEM_4"
+	
+	ship_modifier = {
+		#シールド回復% 率
+		ship_shield_regen_add_perc = 60
+		#シールド回復　実数
+		ship_shield_regen_add_static = 5000
+	}
+
+	ai_weight = {
+		weight = 0
+	}
+}

@@ -1,0 +1,74 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Gladiator_1M1L1H_mesh"
+		file = "gfx/models/ships/Gladiator/Gladiator_1M1L1H.mesh"
+		scale = 0.55
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Gladiator_Hull_diffuse.dds"
+			texture_normal = "Gladiator_Hull_normal.dds"
+			texture_specular = "Gladiator_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Gladiator_Engine_diffuse.dds"
+			texture_normal = "Gladiator_Engine_normal.dds"
+			texture_specular = "Gladiator_Engine_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Gladiator_Super_diffuse.dds"
+			texture_normal = "Gladiator_Super_normal.dds"
+			texture_specular = "Gladiator_Super_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Lights_Grid_diffuse.dds"
+			#texture_normal = "Lights_Grid_normal.dds"
+			#texture_specular = "Lights_Grid_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "Gladiator_Hanger_diffuse.dds"
+			texture_normal = "Gladiator_Hanger_normal.dds"
+			texture_specular = "Gladiator_Hanger_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "Gladiator_M1L1_mesh"
+		file = "gfx/models/ships/Gladiator/Gladiator_M1L1.mesh"
+		scale = 0.55
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "Gladiator_hangar_shield_mesh"
+		file = "gfx/models/ships/Gladiator/Gladiator_hangar_shield.mesh"
+		scale = 0.55
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}

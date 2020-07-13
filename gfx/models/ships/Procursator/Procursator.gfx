@@ -1,0 +1,56 @@
+# Battlecruiser Procursator
+
+objectTypes = {
+	pdxmesh = {
+		name = "Procursator_2S2M1L_mesh"
+		file = "gfx/models/ships/Procursator/Procursator_2S2M1L.mesh"
+		meshsettings = {
+		shader = "PdxMeshShip"
+		}
+		scale = 0.8
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Procursator_Hull_diffuse.dds"
+			texture_normal = "Procursator_Hull_normal.dds"
+			texture_specular = "Procursator_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			texture_normal = "Lights_Grid_Dense_normal.dds"
+			texture_specular = "Lights_Grid_Dense_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Procursator_Super_Structure_diffuse.dds"
+			texture_normal = "Procursator_Super_Structure_normal.dds"
+			texture_specular = "Procursator_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	} 
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "Procursator_M3_mesh"
+		file = "gfx/models/ships/Procursator/Procursator_M3.mesh"
+		scale = 0.8
+	}
+}

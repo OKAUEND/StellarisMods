@@ -1,0 +1,107 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "Vindicator_1H1L_mesh"
+		file = "gfx/models/ships/Vindicator/Vindicator_1H1L.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 0
+			texture_diffuse = "Vindicator_Hull_diffuse.dds"
+			texture_normal = "Vindicator_Hull_normal.dds"
+			texture_specular = "Vindicator_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 1
+			texture_diffuse = "W_XX_9_diffuse.dds"
+			texture_normal = "W_XX_9_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 2
+			texture_diffuse = "Immo_Bridge_diffuse.dds"
+			texture_normal = "Immo_Bridge_normal.dds"
+			texture_specular = "Immo_Bridge_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 3
+			texture_diffuse = "Immo_Greeble_diffuse.dds"
+			texture_normal = "Immo_Greeble_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 4
+			texture_diffuse = "Escortcarrier_lights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 6
+			texture_diffuse = "TractorBeam_Tower_diffuse.dds"
+			texture_normal = "TractorBeam_Tower_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 7
+			texture_diffuse = "mc55_weldingCrane_diffuse.dds"
+			texture_normal = "mc55_weldingCrane_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 8
+			texture_diffuse = "Imperial_Star_Destroyer_Hanger_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Hanger_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Hanger_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 9
+			texture_diffuse = "Immo_Hull_Back_diffuse.dds"
+			texture_normal = "Immo_Hull_Back_normal.dds"
+			texture_specular = "Immo_Hull_Back_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "VindicatorShape"
+			index = 10
+			texture_diffuse = "Immo_Exhaust_diffuse.dds"
+			texture_normal = "Immo_Exhaust_normal.dds"
+			texture_specular = "Immo_Exhaust_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "Vindicator_M1S2_mesh"
+		file = "gfx/models/ships/Vindicator/Vindicator_M1S2.mesh"
+		scale = 0.4
+	}
+}
+
+
+
+

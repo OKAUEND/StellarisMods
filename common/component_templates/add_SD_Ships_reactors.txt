@@ -1,0 +1,1101 @@
+# Icons set here are the ones show in the actual slot. The reason is so that we can support different icons for different sizes. 
+#############
+#	POWER	#
+#############
+
+@StrikeCruiser_power_1 = 300
+@StrikeCruiser_power_2 = 380
+@StrikeCruiser_power_3 = 500
+@StrikeCruiser_power_4 = 640
+@StrikeCruiser_power_5 = 820
+@StrikeCruiser_power_6 = 1050
+@StrikeCruiser_power_7 = 1130
+@StrikeCruiser_power_8 = 1250
+@StrikeCruiser_power_9 = 1390
+@StrikeCruiser_power_10 = 1570
+@StrikeCruiser_power_11 = 2000
+
+@Battlecruiser_power_1 = 340
+@Battlecruiser_power_2 = 420
+@Battlecruiser_power_3 = 540
+@Battlecruiser_power_4 = 680
+@Battlecruiser_power_5 = 860
+@Battlecruiser_power_6 = 1090
+@Battlecruiser_power_7 = 1170
+@Battlecruiser_power_8 = 1290
+@Battlecruiser_power_9 = 1430
+@Battlecruiser_power_10 = 1610
+@Battlecruiser_power_11 = 2040
+
+@Carrier_power_1 = 550
+@Carrier_power_2 = 720
+@Carrier_power_3 = 950
+@Carrier_power_4 = 1250
+@Carrier_power_5 = 1550
+@Carrier_power_6 = 2000
+@Carrier_power_7 = 2170
+@Carrier_power_8 = 2400
+@Carrier_power_9 = 2700
+@Carrier_power_10 = 3000
+@Carrier_power_11 = 3450
+
+@ISD_power_1 = 580
+@ISD_power_2 = 750
+@ISD_power_3 = 980
+@ISD_power_4 = 1280
+@ISD_power_5 = 1600
+@ISD_power_6 = 2500
+@ISD_power_7 = 2800
+@ISD_power_8 = 3145
+@ISD_power_9 = 3200
+@ISD_power_10 = 3750
+@ISD_power_11 = 4000
+
+@Dreadnought_power_1 = 800
+@Dreadnought_power_2 = 1000
+@Dreadnought_power_3 = 1500
+@Dreadnought_power_4 = 1800
+@Dreadnought_power_5 = 2400
+@Dreadnought_power_6 = 2650
+@Dreadnought_power_7 = 5000
+@Dreadnought_power_8 = 9500
+@Dreadnought_power_9 = 9500
+@Dreadnought_power_10 = 12000
+@Dreadnought_power_11 = 14000
+
+@Flagship_power_1 = 10000
+@Flagship_power_2 = 15000
+@Flagship_power_3 = 20000
+
+@hqpower = 20000
+
+#############
+#	COST	#
+#############
+
+@StrikeCruiser_cost_1 = 110
+@StrikeCruiser_cost_2 = 140
+@StrikeCruiser_cost_3 = 170
+@StrikeCruiser_cost_4 = 200
+@StrikeCruiser_cost_5 = 220
+@StrikeCruiser_cost_6 = 250
+@StrikeCruiser_cost_7 = 280
+@StrikeCruiser_cost_8 = 310
+@StrikeCruiser_cost_9 = 340
+@StrikeCruiser_cost_10 = 370
+@StrikeCruiser_cost_11= 400
+
+@Battlecruiser_cost_1 = 120
+@Battlecruiser_cost_2 = 150
+@Battlecruiser_cost_3 = 180
+@Battlecruiser_cost_4 = 210
+@Battlecruiser_cost_5 = 240
+@Battlecruiser_cost_6 = 270
+@Battlecruiser_cost_7 = 300
+@Battlecruiser_cost_8 = 330
+@Battlecruiser_cost_9 = 360
+@Battlecruiser_cost_10 = 390
+@Battlecruiser_cost_11 = 420
+
+@Carrier_cost_1 = 115
+@Carrier_cost_2 = 145
+@Carrier_cost_3 = 175
+@Carrier_cost_4 = 205
+@Carrier_cost_5 = 235
+@Carrier_cost_6 = 265
+@Carrier_cost_7 = 295
+@Carrier_cost_8 = 325
+@Carrier_cost_9 = 355
+@Carrier_cost_10 = 385
+@Carrier_cost_11 = 415
+
+@battleship_cost_7 = 560
+@battleship_cost_8 = 620
+@battleship_cost_9 = 680
+@battleship_cost_10 = 740
+@battleship_cost_11 = 800
+
+@Dreadnought_cost_1 = 630
+@Dreadnought_cost_2 = 700
+@Dreadnought_cost_3 = 770
+@Dreadnought_cost_4 = 840
+@Dreadnought_cost_5 = 910
+@Dreadnought_cost_6 = 980
+@Dreadnought_cost_7 = 1050
+@Dreadnought_cost_8 = 1120
+@Dreadnought_cost_9 = 1190
+@Dreadnought_cost_10 = 1260
+@Dreadnought_cost_11 = 1330
+
+@titan_cost_7 = 1420
+@titan_cost_8 = 1470
+@titan_cost_9 = 1520
+@titan_cost_10 = 1570
+@titan_cost_11 = 1620
+
+@platform_cost_7 = 100
+@platform_cost_8 = 110
+@platform_cost_9 = 120
+@platform_cost_10 = 130
+@platform_cost_11 = 140
+
+@Flagship_cost = 3070
+
+###############################
+
+@SSD_Power_1 = 1450
+@SSD_Power_2 = 1800
+@SSD_Power_3 = 2100
+@SSD_Power_4 = 2500
+@SSD_Power_5 = 3000
+@SSD_Power_6 = 3400
+@SSD_Power_7 = 4000
+
+@SSD_cost_1 = 890
+@SSD_cost_2 = 960
+@SSD_cost_3 = 1030
+@SSD_cost_4 = 1100
+@SSD_cost_5 = 1170
+@SSD_cost_6 = 1240
+@SSD_cost_7 = 1310
+
+######
+
+## Fission Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @StrikeCruiser_power_1
+	cost = @StrikeCruiser_cost_1
+	
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @Battlecruiser_power_1
+	cost = @Battlecruiser_cost_1
+	
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @Carrier_power_1
+	cost = @Carrier_cost_1
+	
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_FISSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_1"
+	icon_frame = 1
+	power = @Dreadnought_power_1
+	cost = @Dreadnought_cost_1
+	
+	prerequisites = { "tech_fission_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 1
+	}
+}
+
+## Fusion Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @StrikeCruiser_power_2
+	cost = @StrikeCruiser_cost_2
+	
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_COLD_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @Battlecruiser_power_2
+	cost = @Battlecruiser_cost_2
+	
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_COLD_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @Carrier_power_2
+	cost = @Carrier_cost_2
+	
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_COLD_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 2
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_2"
+	icon_frame = 1
+	power = @Dreadnought_power_2
+	cost = @Dreadnought_cost_2
+	
+	prerequisites = { "tech_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_COLD_FUSION_REACTOR"
+	
+	ai_weight = {
+		weight = 2
+	}
+}
+
+## Cold Fusion Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @StrikeCruiser_power_3
+	cost = @StrikeCruiser_cost_3
+	
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_ANTIMATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @Battlecruiser_power_3
+	cost = @Battlecruiser_cost_3
+	
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_ANTIMATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @Carrier_power_3
+	cost = @Carrier_cost_3
+	
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_ANTIMATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_COLD_FUSION_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_3"
+	icon_frame = 1
+	power = @Dreadnought_power_3
+	cost = @Dreadnought_cost_3
+	
+	prerequisites = { "tech_cold_fusion_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_ANTIMATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 3
+	}
+}
+
+## Antimatter Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @StrikeCruiser_power_4
+	cost = @StrikeCruiser_cost_4
+	
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_ZERO_POINT_REACTOR"
+	
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @Battlecruiser_power_4
+	cost = @Battlecruiser_cost_4
+	
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { Battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_ZERO_POINT_REACTOR"
+	
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @Carrier_power_4
+	cost = @Carrier_cost_4
+	
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_ZERO_POINT_REACTOR"
+	
+	ai_weight = {
+		weight = 4
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_ANTIMATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_4"
+	icon_frame = 1
+	power = @Dreadnought_power_4
+	cost = @Dreadnought_cost_4
+	
+	prerequisites = { "tech_antimatter_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_ZERO_POINT_REACTOR"
+	
+	ai_weight = {
+		weight = 4
+	}
+}
+
+## Zero Point Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @StrikeCruiser_power_5
+	cost = @StrikeCruiser_cost_5
+	
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_DARK_MATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @Battlecruiser_power_5
+	cost = @Battlecruiser_cost_5
+	
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_DARK_MATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @Carrier_power_5
+	cost = @Carrier_cost_5
+	
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_DARK_MATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @Dreadnought_power_5
+	cost = @Dreadnought_cost_5
+	
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_DARK_MATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 5
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_ZERO_POINT_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_5"
+	icon_frame = 1
+	power = @SSD_Power_1
+	cost = @SSD_cost_1
+	
+	prerequisites = { "tech_zero_point_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_DARK_MATTER_REACTOR"
+	
+	ai_weight = {
+		weight = 5
+	}
+}
+
+## Dark Matter Reactors - NSC Ships ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @StrikeCruiser_power_6
+	cost = @StrikeCruiser_cost_6
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_GRAVITON_REACTOR"
+	ai_weight = {
+		weight = 6
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @Battlecruiser_power_6
+	cost = @Battlecruiser_cost_6
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_GRAVITON_REACTOR"
+	
+	ai_weight = {
+		weight = 6
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @Carrier_power_6
+	cost = @Carrier_cost_6
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_GRAVITON_REACTOR"
+	
+	ai_weight = {
+		weight = 6
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @Dreadnought_power_6
+	cost = @Dreadnought_cost_6
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_GRAVITON_REACTOR"
+	
+	ai_weight = {
+		weight = 6
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_DARK_MATTER_REACTOR"
+	size = small
+	icon = "GFX_ship_part_dark_matter_power_core"
+	icon_frame = 1
+	power = @SSD_Power_2
+	cost = @SSD_cost_2
+	
+	prerequisites = { "tech_dark_matter_power_core" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_GRAVITON_REACTOR"
+	
+	ai_weight = {
+		weight = 6
+	}
+}
+
+#####################
+# REACTOR UTILITIES #
+#####################
+
+# Graviton Reactor
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_7
+	cost = @StrikeCruiser_cost_7
+	
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_NAQUADRIA_REACTOR"
+	
+	ai_weight = {
+		weight = 7
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @Battlecruiser_power_7
+	cost = @Battlecruiser_cost_7
+	
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_NAQUADRIA_REACTOR"
+	
+	ai_weight = {
+		weight = 7
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @Carrier_power_7
+	cost = @Carrier_cost_7
+	
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_NAQUADRIA_REACTOR"
+	
+	ai_weight = {
+		weight = 7
+	}
+}
+
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @Dreadnought_power_7
+	cost = @Dreadnought_cost_7
+	
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_NAQUADRIA_REACTOR"
+	
+	ai_weight = {
+		weight = 7
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_GRAVITON_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_6_NSC"
+	icon_frame = 1
+	power = @SSD_Power_3
+	cost = @SSD_cost_3
+	
+	prerequisites = { "tech_graviton_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_NAQUADRIA_REACTOR"
+	
+	ai_weight = {
+		weight = 7
+	}
+}
+
+## Naquadria Reactors ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_8
+	cost = @StrikeCruiser_cost_8
+	
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_SINGULARITY_REACTOR"
+	
+	ai_weight = {
+		weight = 8
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_8
+	cost = @StrikeCruiser_cost_8
+	
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_SINGULARITY_REACTOR"
+	
+	ai_weight = {
+		weight = 8
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @Carrier_power_8
+	cost = @Carrier_cost_8
+	
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_SINGULARITY_REACTOR"
+	
+	ai_weight = {
+		weight = 8
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @Dreadnought_power_8
+	cost = @Dreadnought_cost_8
+	
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_SINGULARITY_REACTOR"
+	
+	ai_weight = {
+		weight = 8
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_NAQUADRIA_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_7_NSC"
+	icon_frame = 1
+	power = @SSD_Power_4
+	cost = @SSD_cost_4
+	
+	prerequisites = { "tech_naquadria_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_SINGULARITY_REACTOR"
+	
+	ai_weight = {
+		weight = 8
+	}
+}
+
+## Singularity Reactors ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_9
+	cost = @StrikeCruiser_cost_9
+	
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_MULTIDIMENSIONAL_REACTOR"
+	
+	ai_weight = {
+		weight = 9
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_9
+	cost = @StrikeCruiser_cost_9
+	
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_MULTIDIMENSIONAL_REACTOR"
+	
+	ai_weight = {
+		weight = 9
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @Carrier_power_9
+	cost = @Carrier_cost_9
+	
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_MULTIDIMENSIONAL_REACTOR"
+	
+	ai_weight = {
+		weight = 9
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @Dreadnought_power_9
+	cost = @Dreadnought_cost_9
+	
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_MULTIDIMENSIONAL_REACTOR"
+	
+	ai_weight = {
+		weight = 9
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_SINGULARITY_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_8_NSC"
+	icon_frame = 1
+	power = @SSD_Power_5
+	cost = @SSD_cost_5
+	
+	prerequisites = { "tech_singularity_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_MULTIDIMENSIONAL_REACTOR"
+	
+	ai_weight = {
+		weight = 9
+	}
+}
+
+## Multi Dimensional Reactors ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_10
+	cost = @StrikeCruiser_cost_10
+	
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	upgrades_to = "SD_STRIKECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_10
+	cost = @StrikeCruiser_cost_10
+	
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Battlecruiser }
+	upgrades_to = "SD_BATTLECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @Carrier_power_10
+	cost = @Carrier_cost_10
+	
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	upgrades_to = "SD_BATTLESHIP_OPTIMIZED_ENIGMATIC_REACTOR"
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @Dreadnought_power_10
+	cost = @Dreadnought_cost_10
+	
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	upgrades_to = "SD_DREADNOUGHT_OPTIMIZED_ENIGMATIC_REACTOR"
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_MULTIDIMENSIONAL_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_9_NSC"
+	icon_frame = 1
+	power = @SSD_Power_6
+	cost = @SSD_cost_6
+	
+	prerequisites = { "tech_multidimensional_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	upgrades_to = "SSD_BATTLECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	
+	ai_weight = {
+		weight = 10
+	}
+}
+
+## Optimized Dark Matter Reactors ##
+
+utility_component_template = {
+	key = "SD_STRIKECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_11
+	cost = @StrikeCruiser_cost_11
+	
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Cruiser SD_HevyCruiser SD_StrikeCruiser SD_Interdictor }
+	
+	ai_weight = {
+		weight = 11
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @StrikeCruiser_power_11
+	cost = @StrikeCruiser_cost_11
+	
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { SD_Battlecruiser }
+	
+	ai_weight = {
+		weight = 11
+	}
+}
+
+utility_component_template = {
+	key = "SD_BATTLESHIP_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @Carrier_power_11
+	cost = @Carrier_cost_11
+	
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { SD_battleship_01 SD_battleship_02 SD_Heavy_Int SD_SpecialShip }
+	
+	ai_weight = {
+		weight = 11
+	}
+}
+
+utility_component_template = {
+	key = "SD_DREADNOUGHT_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @Dreadnought_power_11
+	cost = @Dreadnought_cost_11
+	
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { SD_dreadnought SD_dreadnought2 }
+	
+	ai_weight = {
+		weight = 11
+	}
+}
+
+utility_component_template = {
+	key = "SSD_BATTLECRUISER_OPTIMIZED_ENIGMATIC_REACTOR"
+	size = small
+	icon = "GFX_ship_part_reactor_11_enigmatic_NSC"
+	icon_frame = 1
+	power = @SSD_Power_7
+	cost = @SSD_cost_7
+	
+	prerequisites = { "tech_optimized_enigmatic_power" }
+	component_set = "power_core"
+	size_restriction = { SSD_battlecruiser }
+	
+	ai_weight = {
+		weight = 11
+	}
+}

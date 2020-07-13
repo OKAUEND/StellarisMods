@@ -1,0 +1,372 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+@tier1cost1 = 500
+@tier1cost2 = 750
+@tier1cost3 = 1000
+
+@tier2cost1 = 1500
+@tier2cost2 = 2000
+@tier2cost3 = 2500
+
+@tier3cost1 = 4000
+@tier3cost2 = 5000
+@tier3cost3 = 6000
+
+@tier4cost1 = 8000
+@tier4cost2 = 10000
+@tier4cost3 = 12000
+
+@tier5cost1 = 15000
+@tier5cost2 = 17500
+@tier5cost3 = 20000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+# ##################
+# Strike Craft
+# ##################
+
+tech_tie_scout = {
+	cost = @tier1cost1
+	area = engineering
+	tier = 1
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_Ship_New_theory" }
+	weight = @tier1weight2
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_fighter = {
+	cost = @tier2cost2
+	area = engineering
+	tier = 2
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = {"tech_Ship_New_theory" "tech_tie_scout" }
+	weight = @tier2weight2
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_interceptor = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_fighter"  }
+	weight = @tier2weight3
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_advanced = {
+	cost = @tier2cost3
+	area = engineering
+	tier = 2
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_interceptor" }
+	weight = @tier2weight4
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_hunter = {
+	cost = @tier3cost2
+	area = engineering
+	tier = 3
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_advanced" }
+	weight = @tier3weight2
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_phantom = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_hunter" }
+	weight = @tier3weight3
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_defender = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_phantom" }
+	weight = @tier3weight4
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_bomber = {
+	cost = @tier2cost2
+	area = engineering
+	tier = 2
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_Ship_New_theory" "tech_tie_scout" }
+	weight = @tier2weight2
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+tech_tie_torpedo = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tie_bomber" }
+	weight = @tier3weight3
+	
+	prereqfor_desc = {
+		custom = {
+			title = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_TITLE"
+			desc = "TECH_UNLOCK_TIE_FIGHTER_CHAIN_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}

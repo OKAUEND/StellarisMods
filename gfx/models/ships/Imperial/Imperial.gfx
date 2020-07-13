@@ -1,0 +1,172 @@
+objectTypes = {
+	pdxmesh = {
+		name = "ISD_I_S4M2H3_mesh"
+		file = "gfx/models/ships/Imperial/ISDI_main.mesh"
+		scale = 0.625
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Star_Destroyer_Hull_diffuse.dds"
+			texture_normal = "Star_Destroyer_Hull_normal.dds"
+			texture_specular = "Star_Destroyer_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "ISD_Super_Structure_diffuse.dds"
+			texture_normal = "ISD_Super_Structure_normal.dds"
+			texture_specular = "ISD_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "ISD_Front_Super_Structure_diffuse.dds"
+			texture_normal = "ISD_Front_Super_Structure_normal.dds"
+			texture_specular = "ISD_Front_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "ISD_Armor_diffuse.dds"
+			texture_normal = "ISD_Armor_normal.dds"
+			texture_specular = "ISD_Armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "W_XX_9_diffuse.dds"
+			texture_normal = "W_XX_9_normal.dds"
+			texture_specular = "W_XX_9_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "Imperial_Star_Destroyer_Hanger_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Hanger_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Hanger_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "ISD_II_S4M2H4_mesh"
+		file = "gfx/models/ships/Imperial/ISDII_main.mesh"
+		scale = 0.625
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Star_Destroyer_Hull_diffuse.dds"
+			texture_normal = "Star_Destroyer_Hull_normal.dds"
+			texture_specular = "Star_Destroyer_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "ISD_Super_Structure_diffuse.dds"
+			texture_normal = "ISD_Super_Structure_normal.dds"
+			texture_specular = "ISD_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "ISD_Front_Super_Structure_diffuse.dds"
+			texture_normal = "ISD_Front_Super_Structure_normal.dds"
+			texture_specular = "ISD_Front_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "ISD_Armor_diffuse.dds"
+			texture_normal = "ISD_Armor_normal.dds"
+			texture_specular = "ISD_Armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "W_XX_9_diffuse.dds"
+			texture_normal = "W_XX_9_normal.dds"
+			texture_specular = "W_XX_9_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "Imperial_Star_Destroyer_Hanger_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Hanger_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Hanger_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "ISD_M2L3_mesh"
+		file = "gfx/models/ships/Imperial/ISDI_loc.mesh"
+		scale = 0.625
+
+		meshsettings = {
+			name = "pPlaneShape1"
+			index = 0
+			texture_diffuse = "nodiffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}

@@ -1,0 +1,49 @@
+objectTypes = {
+	pdxmesh = {
+		name = Secutor_Main_mesh
+		file = "gfx/models/ships/Secutor/Secutor_H12.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "SecutorHullwip1_diffuse.dds"
+			texture_normal = "SecutorHullwip1_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "SecutorHullwip2_diffuse.dds"
+			texture_normal = "SecutorHullwip2_normal.dds"
+			texture_specular = "nospec.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Secutorlights_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = Secutor_None_mesh
+		file = "gfx/models/ships/Secutor/Secutor_None.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "pPlaneShape1"
+			index = 0
+			texture_diffuse = "nodiffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+

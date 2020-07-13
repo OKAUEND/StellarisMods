@@ -1,0 +1,526 @@
+#BOW Venator
+
+ship_section_template = {
+	key = "VENATOR_BOW_S2"
+	ship_size = SD_battleship_01
+	fits_on_slot = bow
+	entity = "Venator_bow_S4M2L2_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+
+	
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+			}
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+	small_utility_slots = 3
+}
+
+ship_section_template = {
+	key = "VENATOR_BOW_S2"
+	ship_size = SD_battleship_01
+	fits_on_slot = bow
+	entity = "Venator_bow_S4M2L2_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+
+	
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+			}
+		}
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+	
+	small_utility_slots = 2
+}
+
+ship_section_template = {
+	key = "VENATOR_BOW_S4M2L2"
+	ship_size = SD_battleship_01
+	fits_on_slot = bow
+	entity = "Venator_bow_S4M2L2_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+
+	
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+			}
+		}
+	}
+	
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_04"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	component_slot = {
+		name = "SMALL_GUN_03"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_03"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_04"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_04"
+	}
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 2
+	
+	cost = 240
+}
+
+ship_section_template = {
+	key = "VENATOR_BOW_M4"
+	ship_size = SD_battleship_01
+	fits_on_slot = bow
+	entity = "Venator_bow_S4M2L2_entity"
+	icon = "GFX_ship_part_core_bow"
+	icon_frame = 1
+	
+
+	
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = erudite_explorers
+				has_ai_personality = fanatic_purifiers
+				has_ai_personality = xenophobic_isolationists				
+				has_ai_personality = federation_builders
+				has_ai_personality = ruthless_capitalists
+				has_ai_personality = metalhead
+			}
+		}
+	}
+	
+
+	component_slot = {
+		name = "MEDIUM_GUN_01"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_03"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_02"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "medium_gun_04"
+	}
+
+	component_slot = {
+		name = "MEDIUM_GUN_03"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "small_gun_01"
+	}
+	
+	component_slot = {
+		name = "MEDIUM_GUN_04"
+		slot_size = medium
+		slot_type = weapon
+		locatorname = "small_gun_02"
+	}
+
+	
+	aux_utility_slots = 2
+	medium_utility_slots = 2
+	large_utility_slots = 2
+	
+	cost = 240
+}
+
+
+#MID Venator
+
+
+ship_section_template = {
+	key = "VENATOR_MID_L2M2H2"
+	ship_size = SD_battleship_01
+	fits_on_slot = mid
+	entity = "Venator_mid_L2M2H2_entity"
+	icon = "GFX_ship_part_core_mid"
+	
+
+
+	
+	ai_weight = {
+		modifier = {
+			factor = 8.0
+			OR = {
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = decadent_hierarchy
+			}
+		}
+	}	
+
+	
+	component_slot = {
+		name = "STRIKE_CRAFT_01"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_01"
+	}
+
+	component_slot = {
+		name = "STRIKE_CRAFT_02"
+		slot_size = large
+		slot_type = strike_craft
+		rotation = 90
+		locatorname = "strike_craft_locator_02"
+	}
+	
+	
+	medium_utility_slots = 3
+	large_utility_slots = 2
+	
+	cost = 240
+}
+
+
+# Mid 2 Venator
+
+ship_section_template = {
+	key = "VENATOR_MID2_L4"
+	ship_size = SD_battleship_01
+	fits_on_slot = mid2
+	entity = "Venator_mid2_L4_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			NOT = { is_preferred_weapons = explosive }
+		}
+		modifier = {
+			factor = 0.1
+			is_preferred_weapons = explosive
+		}		
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_03"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_04"
+	}
+	
+	
+	
+	large_utility_slots = 2
+	cost = 310
+}
+
+ship_section_template = {
+	key = "VENATOR_MID2_L8"
+	ship_size = SD_battleship_01
+	fits_on_slot = mid2
+	entity = "Venator_mid2_L8_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	
+	prerequisites = { tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			NOT = { is_preferred_weapons = explosive }
+		}
+		modifier = {
+			factor = 0.1
+			is_preferred_weapons = explosive
+		}		
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_01"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_01"
+	}
+
+	component_slot = {
+		name = "LARGE_GUN_02"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_02"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_03"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_03"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_04"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_04"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_05"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_05"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_06"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_06"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_07"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_07"
+	}
+	
+	component_slot = {
+		name = "LARGE_GUN_08"
+		slot_size = large
+		slot_type = weapon
+		locatorname = "large_gun_08"
+	}
+	
+	large_utility_slots = 3
+	cost = 620
+}
+
+ship_section_template = {
+	key = "VENATOR_MID2_XL"
+	ship_size = SD_battleship_01
+	fits_on_slot = mid2
+	entity = "Venator_mid2_XL_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+
+	prerequisites = { tech_energy_lance_1 tech_energy_lance_2 tech_arc_emitter_1 tech_arc_emitter_2 tech_mass_accelerator_1 tech_mass_accelerator_2 }
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			NOT = { is_preferred_weapons = explosive }
+		}
+		modifier = {
+			factor = 0.1
+			is_preferred_weapons = explosive
+		}		
+	}
+	
+	component_slot = {
+		name = "EXTRA_LARGE_01"
+		slot_size = extra_large
+		slot_type = weapon
+		locatorname = "medium_gun_07"
+	}	
+
+	
+	large_utility_slots = 1
+	
+	cost = 240
+}
+
+
+#STERN Venator
+
+
+ship_section_template = {
+	key = "VENATOR_STERN_S4L1"
+	ship_size = SD_battleship_01
+	fits_on_slot = stern
+	entity = "Venator_stern_S4L1_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = explosive }
+		}		
+	}
+	
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_05"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = point_defence
+		slot_type = weapon
+		locatorname = "small_gun_06"
+	}	
+	
+	
+	
+	medium_utility_slots = 2
+	large_utility_slots = 2
+
+	cost = 240
+}
+
+ship_section_template = {
+	key = "VENATOR_STERN_S2"
+	ship_size = SD_battleship_01
+	fits_on_slot = stern
+	entity = "Venator_stern_S2_entity"
+	icon = "GFX_ship_part_core_stern"
+	
+	
+	
+	ai_weight = {
+		modifier = {
+			factor = 10.0
+			is_preferred_weapons = explosive
+		}
+		modifier = {
+			factor = 0.1
+			NOT = { is_preferred_weapons = explosive }
+		}		
+	}
+	
+	
+	component_slot = {
+		name = "SMALL_GUN_01"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_05"
+	}
+	
+	component_slot = {
+		name = "SMALL_GUN_02"
+		slot_size = small
+		slot_type = weapon
+		locatorname = "small_gun_06"
+	}	
+	
+	
+	
+	medium_utility_slots = 2
+	large_utility_slots = 2
+
+	cost = 240
+}

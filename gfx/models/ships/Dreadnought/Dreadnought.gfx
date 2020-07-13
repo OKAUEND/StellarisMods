@@ -1,0 +1,94 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Allegiance_M6L2_mesh"
+		file = "gfx/models/ships/Dreadnought/Allegiance/Allegiance_M6L2.mesh"
+		scale = 0.6
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 0
+			texture_diffuse = "Allegiance_Hull_Front_diffuse.dds"
+			texture_normal = "Allegiance_Hull_Front_normal.dds"
+			texture_specular = "Allegiance_Hull_Front_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 1
+			texture_diffuse = "Allegiance_Plating_Top_diffuse.dds"
+			texture_normal = "Allegiance_Plating_Top_normal.dds"
+			texture_specular = "Allegiance_Plating_Top_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 2
+			texture_diffuse = "Allegiance_SS_Medium_diffuse.dds"
+			texture_normal = "Allegiance_SS_Medium_normal.dds"
+			texture_specular = "Allegiance_SS_Medium_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 3
+			texture_diffuse = "Allegiance_SS_Small_diffuse.dds"
+			texture_normal = "Allegiance_SS_Small_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 4
+			texture_diffuse = "Allegiance_Engines_diffuse.dds"
+			texture_normal = "Allegiance_Engines_normal.dds"
+			texture_specular = "Allegiance_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 5
+			texture_diffuse = "Allegiance_Plating_Bottom_diffuse.dds"
+			texture_normal = "Allegiance_Plating_Bottom_normal.dds"
+			texture_specular = "Allegiance_Plating_Bottom_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 6
+			texture_diffuse = "Allegiance_SS_Large_diffuse.dds"
+			texture_normal = "Allegiance_SS_Large_normal.dds"
+			texture_specular = "Allegiance_SS_Large_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 7
+			texture_diffuse = "Allegiance_Hull_Rear_diffuse.dds"
+			texture_normal = "Allegiance_Hull_Rear_normal.dds"
+			texture_specular = "Allegiance_Hull_Rear_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "Hull_FrontShape"
+			index = 8
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "Allegiance_S4L3_mesh"
+		file = "gfx/models/ships/Dreadnought/Allegiance/Allegiance_S4L3.mesh"
+		scale = 0.6
+	}
+}

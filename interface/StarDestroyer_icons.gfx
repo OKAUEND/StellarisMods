@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ship_part_ewars"
+		textureFile = "gfx/interface/icons/ship_parts/ship_part_ewars.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_spaceport_module_customs_office"
+		textureFile = "gfx/interface/icons/modules/spaceport_module_customs_office.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_ShieldSystem"
+		textureFile = "gfx/interface/icons/ship_parts/ShieldSystem.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "GFX_Large_Shield_system"
+		textureFile = "gfx/interface/icons/ship_parts/Large_Shield_system.dds"
+		noOfFrames = 1
+	}
+}

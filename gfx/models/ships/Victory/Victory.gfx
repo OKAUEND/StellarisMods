@@ -1,0 +1,131 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Victory_S2M2L1_mesh"
+		file = "gfx/models/ships/Victory/Victory_S2M2L1.mesh"
+		scale = 0.45
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "VSD_Hull_diffuse.dds"
+			texture_normal = "VSD_Hull_normal.dds"
+			texture_specular = "VSD_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "VSD_Structure_diffuse.dds"
+			texture_normal = "VSD_Structure_normal.dds"
+			texture_specular = "VSD_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "VSD_Detail_diffuse.dds"
+			texture_normal = "VSD_Detail_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			texture_normal = "Lights_Grid_Dense_normal.dds"
+			texture_specular = "Lights_Grid_Dense_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "Victory_M3_mesh"
+		file = "gfx/models/ships/Victory/Victory_M3.mesh"
+		scale = 0.45
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "VictoryII_S2M2L1_mesh"
+		file = "gfx/models/ships/Victory/VictoryII_S2M2L1.mesh"
+		scale = 0.48
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "VSDII_hull_diffuse.dds"
+			texture_normal = "VSDII_hull_normal.dds"
+			texture_specular = "VSDII_hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "VSDII_Structure_diffuse.dds"
+			texture_normal = "VSDII_Structure_normal.dds"
+			texture_specular = "VSDII_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "VSD_Detail_diffuse.dds"
+			texture_normal = "VSD_Detail_normal.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "VSDII_wings_diffuse.dds"
+			texture_normal = "VSDII_wings_normal.dds"
+			texture_specular = "VSDII_wings_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "Escortcarrier_lights_diffuse.dds"
+			texture_normal = "Escortcarrier_lights_normal.dds"
+			texture_specular = "Escortcarrier_lights_specular.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "Victory_S2M2_mesh"
+		file = "gfx/models/ships/Victory/VictoryII_S2M2.mesh"
+		scale = 0.48
+	}
+}
+
+

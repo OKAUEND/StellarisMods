@@ -1,0 +1,1141 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 2000
+@tier2cost2 = 2200
+@tier2cost3 = 2400
+@tier2cost4 = 2900
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+@tier4cost1 = 8000
+@tier4cost2 = 10000
+@tier4cost3 = 12000
+
+@tier5cost1 = 15000
+@tier5cost2 = 17500
+@tier5cost3 = 20000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+@tier4weight1 = 45
+@tier4weight2 = 40
+@tier4weight3 = 35
+
+@tier5weight1 = 30
+@tier5weight2 = 25
+@tier5weight3 = 20
+
+#########################################################################################
+#スター・デストロイヤー　等級開発 基礎
+tech_StarDestroyer_Class_development = {
+	area = engineering
+	cost = @tier2cost3
+	tier = 2
+	category = { voidcraft }
+	prerequisites = { "tech_Ship_New_theory" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 2
+			has_technology = tech_cruisers
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_Aetherochemical_Research_Facility_1
+		}
+		modifier = {
+			factor = 3
+			years_passed > 25
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+
+#########################################################################################
+#スター・デストロイヤー　クルーザークラス
+tech_StarDestroyer_Cruiser = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 3
+	category = { voidcraft }
+	#prerequisites = { "tech_StarDestroyer_Class_development" "tech_Ship_New_theory" }
+	prerequisites = { "tech_disable" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 2
+			has_technology = tech_cruisers
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_Aetherochemical_Research_Facility_1
+		}
+		modifier = {
+			factor = 3
+			years_passed > 50
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+
+#########################################################################################
+#スター・デストロイヤー　重クルーザークラス
+tech_StarDestroyer_HevyCruiser = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { voidcraft }
+	#prerequisites = { "tech_StarDestroyer_Cruiser" "tech_Ship_New_theory" }
+	prerequisites = { "tech_disable" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.5
+			has_technology = tech_StrikeCruiser_1
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_Aetherochemical_Research_Facility_2
+		}
+		modifier = {
+			factor = 3
+			years_passed > 60
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+
+#########################################################################################
+#スター・デストロイヤー　ストライククルーザークラス
+tech_StarDestroyer_StrikeCruiser = {
+	area = engineering
+	cost = @tier2cost4
+	tier = 2
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_HevyCruiser" "tech_Ship_New_theory" "tech_StrikeCruiser_1" }
+	ai_update_type = military
+
+	weight = @tier2weight2
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.1
+			has_technology = tech_StrikeCruiser_1
+		}
+		modifier = {
+			factor = 2
+			has_technology = tech_Aetherochemical_Research_Facility_3
+		}
+		modifier = {
+			factor = 3
+			years_passed > 75
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+
+#########################################################################################
+#スター・デストロイヤー　バトルクルーザークラス
+tech_StarDestroyer_BattleCruiser = {
+	area = engineering
+	cost = @tier3cost2
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_StrikeCruiser" "tech_Ship_New_theory" "tech_Battlecruiser_1" }
+	ai_update_type = military
+
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.5
+			has_technology = tech_battleships
+		}
+		modifier = {
+			factor = 1.5
+			years_passed > 100
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　ヴェネター
+tech_StarDestroyer_BattleShip = {
+	area = engineering
+	cost = @tier3cost4
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_BattleCruiser" "tech_Ship_New_theory" "tech_battleships" }
+	ai_update_type = military
+
+	weight = @tier3weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 2
+			has_technology = tech_Aetherochemical_Research_Facility_4
+		}
+		modifier = {
+			factor = 3
+			years_passed > 125
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　インペリアル
+tech_StarDestroyer_Imperial = {
+	cost = @tier4cost1
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_BattleShip" "tech_Ship_New_theory" }
+	ai_update_type = military
+	weight = @tier3weight2
+	is_rare = yes
+	
+	## Unlocks ISD
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_ISD_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_ISD_CONSTRUCTION_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.5
+			has_technology = tech_battleships
+		}
+		modifier = {
+			factor = 1.5
+			years_passed > 100
+		}
+		modifier = {
+			factor = 1.2
+			has_technology = tech_spitfire_1
+		}	
+		modifier = {
+			factor = 10
+			any_neighbor_country = { has_technology = tech_spitfire_1 }
+		}	
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　ドレッドノート
+tech_StarDestroyer_Dreadnought = {
+	cost = @tier4cost2
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Imperial" "tech_Ship_New_theory" "tech_battleships" }
+	ai_update_type = military
+	weight = @tier3weight2
+	is_rare = yes	
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 10
+			any_neighbor_country = { has_technology = tech_Dreadnought_1 }
+		}	
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　ドレッドノート2
+tech_StarDestroyer_Resurgent = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Dreadnought" "tech_Ship_New_theory" }
+	weight = @tier3weight3
+	is_rare = yes
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スーパー・スター・デストロイヤー　バトルクルーザー
+tech_SuperStarDestroyer_BattleCruiser = {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Dreadnought" "tech_Ship_New_theory" }
+	weight = @tier4weight1
+	is_rare = yes
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スーパー・スター・デストロイヤー　バトルシップ
+tech_SuperStarDestroyer_BattleShip = {
+	cost = @tier5cost1
+	area = engineering
+	tier = 5
+	category = { voidcraft }
+	prerequisites = { "tech_SuperStarDestroyer_BattleCruiser" "tech_Ship_New_theory" }
+	weight = 0
+	is_rare = yes
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スーパー・スター・デストロイヤー　フラグシップ
+#未実装
+tech_SuperStarDestroyer_FlagShip = {
+	cost = 0
+	area = engineering
+	tier = 4
+	category = { voidcraft }
+	prerequisites = { "tech_SuperStarDestroyer_BattleShip" "tech_Ship_New_theory" }
+	weight = 0
+	is_rare = yes
+	
+	## Unlocks Resurgent
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_Resurgent_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_Resurgent_CONSTRUCTION_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　ISDスーパーレーザー搭載モデル
+tech_StarDestroyer_Imperial_Conqueror = {
+	cost = @tier3cost3
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Imperial" "tech_Ship_New_theory" "tech_conq_laser" }
+	ai_update_type = military
+	weight = @tier3weight3
+	is_rare = yes
+	
+	## Unlocks ISD
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_ISD_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_ISD_CONSTRUCTION_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　FTL妨害装置搭載
+tech_StarDestroyer_Imperial_Dominator = {
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Imperial" "tech_Ship_New_theory"  }
+	ai_update_type = military
+	weight = @tier3weight1
+	is_rare = yes
+	
+	## Unlocks ISD
+	prereqfor_desc = {
+		ship = {
+			title = "TECH_UNLOCK_ISD_CONSTRUCTION_TITLE"
+			desc = "TECH_UNLOCK_ISD_CONSTRUCTION_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+#########################################################################################
+#スター・デストロイヤー　FTL妨害装置搭載-巡洋艦モデル
+tech_StarDestroyer_Cruiser_Immobilizer = {
+	cost = @tier3cost1
+	area = engineering
+	tier = 3
+	category = { voidcraft }
+	prerequisites = { "tech_StarDestroyer_Cruiser" "tech_Ship_New_theory"  }
+	ai_update_type = military
+	weight = @tier1weight2
+	is_rare = yes
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+
+	ai_weight = { weight = 0 factor = 0 } 
+}
+##################################################################################################
+##################################################################################################
+#スター・デストロイヤー・シールド・システム
+tech_SD_Shield_system_development = {
+	area = physics
+	cost = @tier2cost1
+	tier = 2
+	category = { field_manipulation }
+	prerequisites = { "tech_shields_3" "tech_Ship_New_theory" "tech_StarDestroyer_Class_development" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SSD_Shield_system_development = {
+	area = physics
+	cost = @tier2cost1
+	tier = 2
+	category = { field_manipulation }
+	prerequisites = { "tech_SD_Shield_system_3" "tech_SD_Dreadnought" "tech_Ship_New_theory" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_1 = {
+	area = physics
+	cost = @tier2cost1
+	tier = 2
+	category = { field_manipulation }
+	prerequisites = { "tech_SD_Shield_system_development" }
+	ai_update_type = military
+
+	weight = @tier2weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_2 = {
+	area = physics
+	cost = @tier2cost3
+	tier = 2
+	category = { field_manipulation }
+	prerequisites = { "tech_SD_Shield_system_1" }
+	ai_update_type = military
+
+	weight = @tier2weight3
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_3 = {
+	area = physics
+	cost = @tier2cost4
+	tier = 2
+	prerequisites = { "tech_SD_Shield_system_2" }
+	category = { field_manipulation }
+	ai_update_type = military
+
+	weight = @tier2weight4
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_4 = {
+	area = physics
+	cost = @tier3cost1
+	tier = 3
+	prerequisites = { "tech_SD_Shield_system_3" }
+	category = { field_manipulation }
+	ai_update_type = military
+
+	weight = @tier3weight1
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_5 = {
+	area = physics
+	cost = @tier3cost3
+	tier = 3
+	prerequisites = { "tech_SD_Shield_system_4" }
+	category = { field_manipulation }
+	ai_update_type = military
+
+	weight = @tier3weight3
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+
+tech_SD_Shield_system_6 = {
+	area = physics
+	cost = @tier4cost2
+	tier = 3
+	prerequisites = { "tech_SD_Shield_system_5" }
+	category = { field_manipulation }
+	ai_update_type = military
+
+	weight = @tier3weight4
+	
+	weight_modifier = {
+		is_ai = no
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 1.15
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_custom_AI_assistant"
+			}
+		}
+		modifier = {
+			factor = 1.40
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_sapient_AI_assistant"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,66 @@
+
+##########WEAPONS FIRE & HIT & DEATH############
+
+##### CLOSE
+
+sound =
+{
+	name = "TIE_explosion_01"
+	file = "weapons/st_Empire_TIE_explosion_1.wav"
+	
+}
+
+sound =
+{
+	name = "TIE_explosion_02"
+	file = "weapons/st_Empire_TIE_explosion_2.wav"
+	
+}
+
+##### DISTANT
+
+##########UNIT MOVEMENT######################
+
+sound =
+{
+	name = "moving_out_em_tie_01"
+	file = "units/st_Empire_01_TIE_moving.wav"
+	always_load = no
+	volume = 0.6
+}
+
+sound =
+{
+	name = "moving_out_em_tie_bomber_01"
+	file = "units/st_Empire_01_TIE_Bomber_moving.wav"
+	always_load = no
+	volume = 0.6
+}
+
+sound =
+{
+	name = "moving_out_em_Inter_01"
+	file = "units/st_Empire_01_Int_moving.wav"
+	always_load = no
+	volume = 0.6
+}
+
+
+#########Ambient##############
+
+sound =
+{
+	name = "st_Empire_01_TIE_01"
+	file = "ambient/st_Empire_01_TIE_amb.wav"
+	volume = 0.2
+}
+
+sound =
+{
+	name = "st_Empire_01_Cruiser_01"
+	file = "ambient/st_Empire_01_battleship_hum.wav"
+	volume = 0.5
+}
+
+
+

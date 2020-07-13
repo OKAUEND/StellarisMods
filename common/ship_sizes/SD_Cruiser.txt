@@ -1,0 +1,63 @@
+@cruiser_combat_speed = 1.25
+@cruiser_combat_rotation = 0.035
+@cruiser_collision_radius = 6
+@cruiser_formation_priority = 2
+
+@light_cruiser_combat_speed = 1.4
+@light_cruiser_combat_rotation = 0.040
+@light_cruiser_collision_radius = 5
+@light_cruiser_formation_priority = 2
+
+@battlecruiser_combat_speed = 1.0
+@battlecruiser_combat_rotation = 0.025
+@battlecruiser_collision_radius = 3
+
+SD_Cruiser = {
+	formation_priority = @cruiser_formation_priority
+	max_speed = 150
+	acceleration = 0.30
+	rotation_speed = 0.19
+	combat_max_speed = @light_cruiser_combat_speed
+	combat_rotation_speed = @light_cruiser_combat_rotation
+	collision_radius = @light_cruiser_collision_radius
+	modifier = {
+		ship_armor_add = 25
+		ship_evasion_add = 13
+		SHIP_SHIELD_REGEN_MULT = -0.1
+		
+		SHIP_HITPOINTS_MULT = 0.3
+		SHIP_SHIELD_HP_MULT = 0.3
+	}
+	max_hitpoints = 1600
+	size_multiplier = 5
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "stern" = { locator = "part3" } }
+	num_target_locators = 4
+	is_space_station = no
+	icon_frame = 4
+	base_buildtime = 180
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+
+	prerequisites = { "tech_StarDestroyer_Cruiser" "tech_StarDestroyer_Class_development" }
+	
+	combat_disengage_chance = 1.50
+
+	has_mineral_upkeep = yes
+	class = shipclass_military
+	construction_type = starbase_shipyard
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "SD_Shield_system"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	#required_component_set = "ship_aura_components"
+	required_component_set = "special_ship_slot"
+
+	possible_starbase = {
+		has_starbase_size >= starbase_starport
+		has_starbase_building = SD_yards
+	}
+}

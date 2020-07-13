@@ -1,0 +1,102 @@
+@battleship_combat_speed = 0.75
+@battleship_combat_rotation = 0.025
+@battleship_collision_radius = 8
+@battleship_formation_priority = 5
+
+
+SD_battleship_01 = {
+	formation_priority = @battleship_formation_priority
+	max_speed = 130
+	acceleration = 0.2
+	rotation_speed = 0.15
+	combat_max_speed = @battleship_combat_speed
+	combat_rotation_speed = @battleship_combat_rotation
+	collision_radius = @battleship_collision_radius
+	modifier = {
+		ship_armor_add = 80
+		ship_evasion_add = 5
+		ship_weapon_damage = -0.25
+		
+		SHIP_HITPOINTS_MULT = 0.5
+		SHIP_SHIELD_HP_MULT = 0.5
+	}
+	max_hitpoints = 4800
+	size_multiplier = 9
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part3" } "stern" = { locator = "part4" } }
+	num_target_locators = 4
+	icon_frame = 5
+	base_buildtime = 480
+
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+	
+	#prerequisites = { "tech_spaceport_6" "tech_st_empire_01" }
+	prerequisites = { "tech_StarDestroyer_BattleShip" }
+	
+	has_mineral_upkeep = yes
+	class = shipclass_military
+	construction_type = starbase_shipyard
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "SD_Shield_system"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	required_component_set = "special_ship_slot"
+
+	possible_starbase = {
+		has_starbase_building = SD_yards
+	}
+}
+
+SD_battleship_02 = {
+	formation_priority = @battleship_formation_priority
+	max_speed = 120
+	acceleration = 0.2
+	rotation_speed = 0.15
+	combat_max_speed = @battleship_combat_speed
+	combat_rotation_speed = @battleship_combat_rotation
+	collision_radius = @battleship_collision_radius
+	modifier = {
+		ship_armor_add = 90
+		ship_evasion_add = 5
+		ship_weapon_damage = -0.35
+		
+		SHIP_HITPOINTS_MULT = 0.5
+		SHIP_SHIELD_HP_MULT = 0.5
+	}
+	max_hitpoints = 5400
+	size_multiplier = 10
+	fleet_slot_size = 4
+	section_slots = { "bow" = { locator = "part1" } "mid" = { locator = "part2" } "mid2" = { locator = "part3" } "stern" = { locator = "part4" } }
+	num_target_locators = 4
+	icon_frame = 5
+	base_buildtime = 480
+
+	can_have_federation_design = yes
+	enable_default_design = no	#if yes, countries will have an auto-generated design at start
+	
+	#prerequisites = { "tech_ISD" "tech_st_empire_01" }
+	prerequisites = { "tech_StarDestroyer_Imperial" }
+
+	has_mineral_upkeep = yes
+	class = shipclass_military
+	construction_type = starbase_shipyard
+
+	required_component_set = "power_core"
+	required_component_set = "ftl_components"
+	required_component_set = "SD_Shield_system"
+	required_component_set = "thruster_components"
+	required_component_set = "sensor_components"
+	required_component_set = "combat_computers"
+	required_component_set = "ai_behaviour"
+	required_component_set = "special_ship_slot"
+	required_component_set = "special_ship_slot"
+
+	possible_starbase = {
+		has_starbase_building = SD_yards
+	}
+}
+

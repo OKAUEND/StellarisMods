@@ -1,0 +1,58 @@
+@corvette_scale = 4.5
+
+# TIE Fighter
+
+entity = {
+	name = "TIE_Scout"
+	pdxmesh = "TIE_Scout_mesh"
+	scale = 1.0
+}
+
+entity = {
+	name = "TIE_Fighter"
+	pdxmesh = "TIE_Fighter_mesh"
+	scale = 1.0
+}
+	
+entity = {
+	name = "TIE_Interceptor"
+	pdxmesh = "TIE_Interceptor_mesh"
+	scale = 1.0
+}
+
+entity = {
+	name = "TIE_Advanced"
+	pdxmesh = "TIE_Advanced_mesh"
+	scale = 1.0
+}
+
+entity = {
+	name = "TIE_Hunter"
+	pdxmesh = "TIE_Hunter_mesh"
+	scale = 1.0
+}
+
+entity = {
+	name = "TIE_Phantom"
+	pdxmesh = "TIE_Phantom_mesh"
+	scale = 1.0
+}
+
+entity = {
+	name = "TIE_Defender"
+	pdxmesh = "TIE_Defender_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "TIE_Bomber"
+	pdxmesh = "TIE_Bomber_mesh"
+	scale = 1.0
+}
+entity = {
+	name = "TIE_Torpedo"
+	pdxmesh = "TIE_Torp_mesh"
+	scale = 1.0
+}
+
+
+

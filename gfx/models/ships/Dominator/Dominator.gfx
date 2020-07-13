@@ -1,0 +1,111 @@
+
+objectTypes = {
+	pdxmesh = {
+		name = "Dominator_S4H4_mesh"
+		file = "gfx/models/ships/Dominator/Dominator_main.mesh"
+		scale = 0.625
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Dominator_Super_Structure_diffuse.dds"
+			texture_normal = "Dominator_Super_Structure_normal.dds"
+			texture_specular = "Dominator_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Dominator_Plateau_diffuse.dds"
+			texture_normal = "Dominator_Plateau_normal.dds"
+			texture_specular = "Dominator_Plateau_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Star_Destroyer_Hull_diffuse.dds"
+			texture_normal = "Star_Destroyer_Hull_normal.dds"
+			texture_specular = "Star_Destroyer_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Dominator_Gravity_Well_Generators_diffuse.dds"
+			texture_normal = "Dominator_Gravity_Well_Generators_normal.dds"
+			texture_specular = "Dominator_Gravity_Well_Generators_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "Dominator_Armor_diffuse.dds"
+			texture_normal = "Dominator_Armor_normal.dds"
+			texture_specular = "Dominator_Armor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "Lights_Grid_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "Lights_Grid_Teal.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "Star_Destroyer_Engines_diffuse.dds"
+			texture_normal = "Star_Destroyer_Engines_normal.dds"
+			texture_specular = "Star_Destroyer_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 8
+			texture_diffuse = "W_XX_9_diffuse.dds"
+			texture_normal = "W_XX_9_normal.dds"
+			texture_specular = "W_XX_9_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 9
+			texture_diffuse = "Imperial_Star_Destroyer_Hanger_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Hanger_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Hanger_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "Dominator_S2M1L1_mesh"
+		file = "gfx/models/ships/Dominator/Dominator_loc.mesh"
+		scale = 0.625
+
+		meshsettings = {
+			name = "pPlaneShape1"
+			index = 0
+			texture_diffuse = "nodiffuse.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+

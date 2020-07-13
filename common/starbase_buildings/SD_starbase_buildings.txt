@@ -1,0 +1,76 @@
+SD_yards = {
+	icon = "GFX_spaceport_module_titan_assembly_yard"
+	construction_days = 200
+	
+	potential = {
+		exists = owner
+		owner = { has_technology = tech_StarDestroyer_Class_development }			
+	}
+	
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_starport"
+			has_starbase_size >= starbase_starport
+		}
+		has_starbase_module = shipyard
+	}
+	
+	cost = {
+		minerals = 200
+	}
+	
+	upkeep_resources = {
+		energy = 3
+	}
+	
+	ai_build_at_chokepoint = no
+	ai_build_outside_chokepoint = no
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			count_starbase_modules = {
+				type = shipyard
+				count < 3
+			}
+		}
+	}
+}
+SSD_yards = {
+	icon = "GFX_spaceport_module_titan_assembly_yard"
+	construction_days = 720
+	
+	potential = {
+		exists = owner
+		owner = { has_technology = tech_StarDestroyer_Dreadnought }			
+	}
+	
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_citadel"
+			has_starbase_size >= starbase_citadel
+		}
+		has_starbase_module = shipyard
+	}
+	
+	cost = {
+		minerals = 1000
+	}
+	
+	upkeep_resources = {
+		energy = 10
+	}
+	
+	ai_build_at_chokepoint = no
+	ai_build_outside_chokepoint = no
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			count_starbase_modules = {
+				type = shipyard
+				count < 3
+			}
+		}
+	}
+}

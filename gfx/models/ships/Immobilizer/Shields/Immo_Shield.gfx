@@ -1,0 +1,34 @@
+objectTypes = {
+	pdxmesh = {
+		name = "Immobilizer_Shield_mesh"
+		file = "gfx/models/ships/Immobilizer/Shields/Immo_Shield.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			name = "ShieldShape"
+			index = 0
+			texture_diffuse = "Shield_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

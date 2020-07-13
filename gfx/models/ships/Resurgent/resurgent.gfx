@@ -1,0 +1,46 @@
+objectTypes = {
+	pdxmesh = {
+		name = "resurgent_frame_mesh"
+		file = "gfx/models/ships/Resurgent/resurgent_frame.mesh"
+		scale = 2.7
+
+		meshsettings = {
+			name = "resurgent_allinone"
+			index = 0
+			texture_diffuse = "Finalizer_SD_STEL_diffuse.dds"
+			texture_normal = "Finalizer_SD_STEL_normal.dds"
+			texture_specular = "Finalizer_SD_STEL_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "resurgent_allinone_mesh"
+		file = "gfx/models/ships/Resurgent/resurgent_allinone.mesh"
+		scale = 2.7
+
+		meshsettings = {
+			#name = "resurgent_allinone"
+			index = 0
+			texture_diffuse = "Finalizer_SD_STEL_diffuse.dds"
+			texture_normal = "Finalizer_SD_STEL_normal.dds"
+			texture_specular = "Finalizer_SD_STEL_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "resurgent_mid1_mesh"
+		file = "gfx/models/ships/Resurgent/resurgent_mid1.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "resurgent_allinone"
+			index = 0
+			texture_diffuse = "Finalizer_SD_STEL_diffuse.dds"
+			texture_normal = "Finalizer_SD_STEL_normal.dds"
+			texture_specular = "Finalizer_SD_STEL_specular.dds"
+			shader = "PdxMeshRunemaster"
+		}
+	}
+}

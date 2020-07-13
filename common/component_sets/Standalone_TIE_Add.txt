@@ -1,0 +1,61 @@
+# Icons set here are the ones shown in compnent editor list.
+
+component_set = {
+	key = "TIE_FIGHTER_2"
+	
+	icon = "GFX_ship_part_tie_fighter"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_FIGHTER_3"
+	
+	icon = "GFX_ship_part_tie_fighter"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_FIGHTER_4"
+	
+	icon = "GFX_ship_part_tie_fighter"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_INTERCEPTOR_2"
+	
+	icon = "GFX_ship_part_tie_interceptor"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TIE_INTERCEPTOR_3"
+	
+	icon = "GFX_ship_part_tie_interceptor"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_INTERCEPTOR_4"
+	
+	icon = "GFX_ship_part_tie_interceptor"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_HUNTER_2"
+	
+	icon = "GFX_ship_part_tie_hunter"
+	icon_frame = 1	
+}
+component_set = {
+	key = "TIE_HUNTER_3"
+	
+	icon = "GFX_ship_part_tie_hunter"
+	icon_frame = 1	
+}component_set = {
+	key = "TIE_HUNTER_4"
+	
+	icon = "GFX_ship_part_tie_hunter"
+	icon_frame = 1	
+}
+
+
+
+
+

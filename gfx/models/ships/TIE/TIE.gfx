@@ -1,0 +1,183 @@
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Fighter_mesh"
+		file = "gfx/models/ships/TIE/Fighter/TIE_Fighter.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_FighterShape"
+			index = 0
+			texture_diffuse = "TIE_LN_Fighter_diffuse.dds"
+			texture_normal = "TIE_LN_Fighter_normal.dds"
+			texture_specular = "TIE_LN_Fighter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Bomber_mesh"
+		file = "gfx/models/ships/TIE/Bomber/TIE_Bomber.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "Tie_BomberShape"
+			index = 0
+			texture_diffuse = "TIE_Bomber_diffuse.dds"
+			texture_normal = "TIE_Bomber_normal.dds"
+			texture_specular = "TIE_Bomber_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Scout_mesh"
+		file = "gfx/models/ships/TIE/Scout/TIE_Scout.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_ScoutShape"
+			index = 0
+			texture_diffuse = "TIE_Scout_diffuse.dds"
+			texture_normal = "TIE_Scout_normal.dds"
+			texture_specular = "TIE_Scout_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Interceptor_mesh"
+		file = "gfx/models/ships/TIE/Interceptor/TIE_Interceptor.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "TIE_Interceptor_diffuse.dds"
+			texture_normal = "TIE_Interceptor_normal.dds"
+			texture_specular = "TIE_Interceptor_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "TIE_Interceptor_wings_diffuse.dds"
+			texture_normal = "TIE_Interceptor_wings_normal.dds"
+			texture_specular = "TIE_Interceptor_wings_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Advanced_mesh"
+		file = "gfx/models/ships/TIE/Advanced/TIE_Advanced.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_AdvancedShape"
+			index = 0
+			texture_diffuse = "TIE_Advanced_diffuse.dds"
+			texture_normal = "TIE_Advanced_normal.dds"
+			texture_specular = "TIE_Advanced_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Defender_mesh"
+		file = "gfx/models/ships/TIE/Defender/TIE_Defender.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "TIE_Defender_cockpit_diffuse.dds"
+			texture_normal = "TIE_Defender_cockpit_normal.dds"
+			texture_specular = "TIE_Defender_cockpit_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "TIE_Defender_wings_diffuse.dds"
+			texture_normal = "TIE_Defender_wings_normal.dds"
+			texture_specular = "TIE_Defender_wings_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Phantom_mesh"
+		file = "gfx/models/ships/TIE/Phantom/TIE_Phantom.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "TIE_PhantomShape"
+			index = 0
+			texture_diffuse = "TIE_Phantom_diffuse.dds"
+			texture_normal = "TIE_Phantom_normal.dds"
+			texture_specular = "TIE_Phantom_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Hunter_mesh"
+		file = "gfx/models/ships/TIE/Hunter/TIE_Hunter.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "TIE_Hunter_diffuse.dds"
+			texture_normal = "TIE_Hunter_normal.dds"
+			texture_specular = "TIE_Hunter_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+objectTypes = {
+	pdxmesh = {
+		name = "TIE_Torp_mesh"
+		file = "gfx/models/ships/TIE/Torp/TIE_Torp.mesh"
+		scale = 1.0
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 0
+			texture_diffuse = "TIE_Torp_parts_diffuse.dds"
+			texture_normal = "TIE_Torp_parts_normal.dds"
+			texture_specular = "TIE_Torp_parts_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 1
+			texture_diffuse = "TIE_Torp_panels_diffuse.dds"
+			texture_normal = "TIE_Torp_panels_normal.dds"
+			texture_specular = "TIE_Torp_panels_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "remaining_partsShape"
+			index = 2
+			texture_diffuse = "TIE_Torp_turret_diffuse.dds"
+			texture_normal = "TIE_Torp_turret_normal.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+

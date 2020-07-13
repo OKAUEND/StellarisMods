@@ -1,0 +1,34 @@
+StarWars Ship Task
+1:Ship Convert
+    1:Vindicator    Complete
+    2:Gladiator     Complete
+    3:Victory       Complete
+    4:Procursator   Complete
+    5:Venator       Complete
+    6:Imperial      Complete
+    7:Allegiance    Complete
+    8:Secutor       Complete
+    9:Resurgent     Complete
+    10:Bellator     Complete
+    11:Annihilator
+
+    0:Immobilizer   Complete
+    1:Dominator     Complete
+
+    0:Conqu
+2:Weapon Convert
+3:Fiter Convert
+    1:TIE-F
+    2:TIE-Int
+    3:TIE-X
+    4:TIE-Hunter
+    5:TIE-Phantom
+    6:TIE-Difender
+
+    7:TIE-Bomber
+    8:TIE-Toperd
+
+    パラメーター設定 Complete
+    モデル移植       作業中
+
+4:StarSystem Create

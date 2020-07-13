@@ -1,0 +1,108 @@
+objectTypes = {
+	pdxmesh = {
+		name = "bellator_M8L2_mesh"
+		file = "gfx/models/ships/Bellator/Bellator_M8L2.mesh"
+		scale = 0.5
+		animation = { id = "idle"		type = "pirate_01_galleon_idle_animation" }
+		animation = { id = "death"		type = "pirate_01_galleon_death_animation" }
+
+		meshsettings = {
+			name = "HullShape"
+			index = 0
+			texture_diffuse = "Star_Destroyer_Hull_diffuse.dds"
+			texture_normal = "Star_Destroyer_Hull_normal.dds"
+			texture_specular = "Star_Destroyer_Hull_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 1
+			texture_diffuse = "Lights_Grid_Dense_diffuse.dds"
+			shader = "PdxMeshAlphaAdditive"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 2
+			texture_diffuse = "Imperial_Star_Destroyer_Super_Structure_diffuse.dds"
+			texture_normal = "Imperial_Star_Destroyer_Super_Structure_normal.dds"
+			texture_specular = "Imperial_Star_Destroyer_Super_Structure_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 3
+			texture_diffuse = "Bellator_Hull_Main_diffuse.dds"
+			texture_normal = "Bellator_Hull_Main_normal.dds"
+			texture_specular = "Bellator_Hull_Main_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 4
+			texture_diffuse = "Bellator_Hull_Top_diffuse.dds"
+			texture_normal = "Bellator_Hull_Top_normal.dds"
+			texture_specular = "Bellator_Hull_Top_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 5
+			texture_diffuse = "Bellator_Turret_diffuse.dds"
+			texture_normal = "Bellator_Turret_normal.dds"
+			texture_specular = "Bellator_Turret_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 6
+			texture_diffuse = "Bellator_Hull_Rear_diffuse.dds"
+			texture_normal = "Bellator_Hull_Rear_normal.dds"
+			texture_specular = "Bellator_Hull_Rear_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 7
+			texture_diffuse = "Bellator_Engines_diffuse.dds"
+			texture_normal = "Bellator_Engines_normal.dds"
+			texture_specular = "Bellator_Engines_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 8
+			texture_diffuse = "Bellator_Hull_Front_diffuse.dds"
+			texture_normal = "Bellator_Hull_Front_normal.dds"
+			texture_specular = "Bellator_Hull_Front_specular.dds"
+			shader = "PdxMeshShip"
+		}
+
+		meshsettings = {
+			name = "HullShape"
+			index = 9
+			texture_diffuse = "Bellator_Reactors_diffuse.dds"
+			texture_normal = "Bellator_Reactors_normal.dds"
+			texture_specular = "Bellator_Reactors_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+}
+
+
+objectTypes = {
+	pdxmesh = {
+		name = "bellator_M4L4_mesh"
+		file = "gfx/models/ships/Bellator/Bellator_M4L4.mesh"
+		scale = 0.5
+		animation = { id = "idle"		type = "pirate_01_galleon_idle_animation" }
+		animation = { id = "death"		type = "pirate_01_galleon_death_animation" }
+	}
+}
